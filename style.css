@@ -478,13 +478,13 @@ ul li a{
     padding: 40px 90px 65px 90px;
 }
 
-.event .first{
+/* .event .first{
     font-size: 12px;
     background: linear-gradient(45deg, #A54E2B, #DC9853);
     background-size: 100%;
     -webkit-text-fill-color: transparent; 
     -moz-text-fill-color: transparent;
-}
+} */
     
 .time{
     height: 48px;
@@ -568,7 +568,7 @@ ul li a{
 }
 
 .inner-box{
-    padding: 88 352 72 48;
+    padding: 88px 350px 72px 48px;
 }
 
 .inner-box h2{
@@ -599,7 +599,7 @@ ul li a{
 }
 
 .post{
-    padding: 48 32 48 32;
+    padding: 48px 32px;
 }
 
 .post h5{
@@ -632,7 +632,6 @@ ul li a{
 .post .gradient{
     font-size: 12px;
     margin-bottom:16px;
-    background: linear-gradient(45deg, #A54E2B, #DC9853);
     background-size: 100%;
     -webkit-text-fill-color: transparent; 
     -moz-text-fill-color: transparent;
@@ -695,13 +694,16 @@ ul li a{
     list-style: none;
     margin-bottom: 24px;
 }
+.links-column ul{
+    display: grid;
+}
 
 .links-column p{
     margin: 0;
     padding-bottom: 20px;
 }
 
-.links-column li a{
+.links-column ul li {
     text-decoration: none;
     color: #ffffff;
     font-family: 'Roboto Condensed';
